@@ -22,7 +22,7 @@ This project is a command-line interface (CLI) tool for compressing images. It a
 To compress an image, run the following command:
 
 ```
-node compress.js [image-path] [options]
+node index.js [image-path] [options]
 ```
 
 Replace `[image-path]` with the path to the image file you want to compress. You can also specify additional options to customize the compression process.
@@ -30,7 +30,7 @@ Replace `[image-path]` with the path to the image file you want to compress. You
 For example, to compress an image with a specific compression level and resize it to a specific width, you can use the following command:
 
 ```
-node compress.js image.jpg --quality 80 --width 800
+node index.js image.jpg --quality 80 --width 800
 ```
 
 For more information on available options, run `node index.js --help`.
